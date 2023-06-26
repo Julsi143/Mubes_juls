@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Prompt:wght@600&display=swap');
+
+
+
+.body{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000000, #252029);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #252029); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#divfondo{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.welcome{
+font-weight:100;
+font-size: 350%;
+color: white;
+
+
+}
+
+.welcome2{
+font-weight: 300;
+font-size: 250%;
+color: white;
+margin-top: 2%;
+}
+
+.h{
+    font-weight: 300;
+    font-size: 200%;
+    color: white;
+}
+
+#contra{
+    margin-right: 49%; 
+}
+
+.iniciosesion{    
+    width: 402px;
+    height: 40px;
+    background-color:rgba(46, 46, 46, 0.815);
+    border-radius: 50px;  
+    border: rgba(46, 46, 46, 0.815);
+    margin-bottom: 2%;
+}
+
+#divlogin{
+background-color: #252025;
+background: -webkit-linear-gradient(to right, #1d1b1b, #252025 );  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #1b1b1b, #252025 );
+width: 500px;
+height: 600px;
+margin-top: 2%;
+margin-bottom: 2%;
+padding-top: 2%;
+padding-bottom: 2%;
+border-radius: 5%;
+box-shadow: 2px 2px 30px 7px rgba(46, 46, 46, 0.815);
+}
+
+
+.boton{
+    border: 1px solid purple; 
+    padding: 10px; 
+    background-color: purple; 
+    text-decoration: none; 
+    border-radius: 50px;
+    width: 250px;
+    margin-top: 2%;
+    color: black;
+}
+
+
+.boton:hover{
+
+    background-color: rgb(143, 2, 143);
+    width: 255px;
+    height: 49px;
+} 
+
+.formulario{
+    font-weight: 300;
+    font-size: 200%;
+    color: white;
+    text-align: left;
+}
+
+#formulario{
+    width: 402px;
+    height: 40px;
+    background-color:rgba(46, 46, 46, 0.815);
+    border-radius: 50px;  
+    border: rgba(46, 46, 46, 0.815);
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+
+
+.botonflecha{
+    border: none;
+    background: none;
+    text-decoration: none; 
+    color: purple;
+    margin-right: 100%;
+    margin-top: -5%;
+    font-size: 300%;
+    
+}
+
+
+.body_cancion{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #292929, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #292929, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.buscar{
+    width: 550px;
+    height: 40px;
+    background-color:rgba(82, 82, 82, 0.815);
+    border-radius: 50px;  
+    border: rgba(82, 82, 82, 0.815);
+    margin-top: 1%;
+    margin-left: 23%;
+}
+
+
+.portada_cancion{
+    margin-left: 12%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.vinilo{
+    height: 450px;
+    margin-top: 1%;
+}
+
+#cont_letra{
+    background-color: #000000;
+    background: -webkit-linear-gradient(to right, #a3743e, #e9c16b );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #a3743e, #e9c16b );
+    width: 550px;
+    height: 515px;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5%;
+    box-shadow: 2px 2px 29px 5px rgba(94, 62, 33, 0.815);
+    margin-right: 15%;
+    position: static;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+    color: yellowgreen;
+}
+
+
+
+.titulo_cancion{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: lighter;
+    display: block;
+}
+
+.nombre_artista{
+    color: rgb(196, 191, 191);
+    font-size: small;
+    font-weight: normal;
+    margin-top: 2px;
+    margin-bottom: 1.5%;
+    display: block;
+}
+
+.nombre_artista:hover{
+    text-decoration: underline;
+}
+
+
+/*empieza el style del corazoncito*/
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .container {
+    display: block;
+    position:relative;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .container svg {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    transition: all 0.3s;
+    fill: none;
+    stroke: #666;
+  }
+  
+  .container svg:hover {
+    transform: scale(1.1);
+  }
+  
+  .container input:checked ~ svg {
+    fill: purple;
+    stroke: purple;
+  }
+  
+/*termina style del like corazoncito*/
+
+#barra{
+    margin-left: 10%;
+    position:relative;
+    height:5px;
+    width:500px;
+    border:solid 1px #ccc;
+}
+#progreso{
+    position:absolute;
+    height:100%;
+    width: 0%;
+    background:#0F0;
+}
+
+#cont_botones{
+    text-align: center;
+}
+
+.botones_reproduccion{
+    background: none;
+    border: none;
+    text-decoration: none; 
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#boton_aleat{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#boton_aleat:active{
+    color: purple;
+}
+
+#boton_atras{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#boton_play{
+    font-size:40px;
+    font-weight: lighter;  
+}
+
+#boton_siguiente{
+    font-size: 40px;
+    font-weight:lighter;
+}
+
+#boton_bucle{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#boton_bucle:active{
+    color: purple;
+}
+
+#cont_album{
+    text-align: center;
+    margin-top: 1.8%;
+}
+
+#tituloyartista{
+    text-align: left;
+    margin-left: 21.3%;
+    margin-top: 2%;
+}
+
+.titulo_album{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: lighter;
+    display: block;
+}
+
+.datos_album{
+    color: rgb(196, 191, 191);
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: -1%;
+    margin-bottom: 1.5%;
+    display: block;
+}
+
+.datos_album:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#cont_canciones{
+    background-color: #000000;
+    background: -webkit-linear-gradient(to right, #1f1f1f, #000000 );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #1f1f1f, #000000 );
+    width: 550px;
+    height: 515px;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5%;
+    box-shadow: 2px 2px 29px 5px rgba(56, 56, 56, 0.815);
+    margin-right: 15%;
+    overflow-y: scroll;
+}
+
+
+#cancion_alb{
+    color: white;
+    font-size: 120%;
+    width: 130%;
+    padding: 3%;
+}
+
+#cancion_alb:hover{
+    background-color: rgba(78, 78, 78, 0.349);
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+
+/*empieza estrellita añadir a fav*/
+#estrella_favs input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  #estrella_favs {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  #estrella_favs svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    transition: all 0.3s;
+    fill: none;
+    stroke: #666;
+    margin-top: 47%;
+  }
+  
+  #estrella_favs svg:hover {
+    transform: scale(1.1);
+  }
+  
+  #estrella_favs input:checked ~ svg {
+    fill: purple;
+    stroke: purple;
+  }
+    
+/*termina estrellita*/
+
+
+
+
+
+.titulo_canciones{
+    text-decoration: none;
+    color: white;
+}
+
+.titulo_canciones:hover{
+    text-decoration: underline;
+}
+
+#nro_cancion{
+    margin-top: 2%;
+    color: #8a8a8a;
+}
+
+#tres_puntitos {
+    position: absolute;
+    margin-top: 1%;
+    text-align: left;
+    height: 10px;
+    width: 10px;
+}
+
+.material-symbols-outlined{
+    margin-top: 20%;
+}
+
+/*EMPIEZA ESTILOS DE PERFIL ARTISTA*/
+.body_artista{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #292929, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #292929, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*TERMINAN PERFIL ARTISTA*/
+
+/*ESTILOS OPCIONES PARA ESTUDIO*/
+
+.body_opciones{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3b2816, #1b0e01);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3b2816, #1b0e01); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo_y_titulo{
+    margin-top: 0.6%;
+}
+
+#div_titulo{
+    margin-top: 0.5%;
+}
+
+.titulos{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    display: inline;
+    margin-left: 2%;
+    font-size:400%;
+}
+
+#div_mayor_opciones{
+    text-align: center;
+    justify-content: space-between;
+}
+
+#div_opciones{
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 490px;
+    width: 350px;
+    margin-top: 1%;
+    background-color: #53535354;
+    border-radius: 2%;
+}
+
+#div_opciones:hover{
+    transition: all 1s ease;
+    background-color: #50392954;
+}
+
+#div_opciones:hover .boton_estudio{
+    margin-top: 15%;
+    transition: all 1s ease;
+    background-color: #472c12bb;
+    box-shadow: 1px 1px 10px 7px rgba(56, 50, 43, 0.589);
+    color: #1f002e;
+}
+
+
+.boton_estudio{
+    color: white;
+    background-color: #372a3abb;
+    border: none;
+    height: 150px;
+    width: 200px;
+    font-family: 'Mukta', sans-serif;
+    font-size: xx-large;
+    margin-top: 50%;
+    border-radius: 5%;
+    box-shadow: 1px 1px 10px 7px rgba(27, 21, 27, 0.589);
+    background-image: url('vinilo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto_estudio{
+    font-family: 'Mukta', sans-serif;
+    opacity: 0%;
+    max-height: 0%;
+}
+
+#div_opciones:hover .texto_estudio{
+    opacity: 100%;
+    max-height: 100%;
+    transition: all 1s ease;
+    margin-bottom: 50%;
+    margin-top: 7%;
+    color: white;
+}
+
+
+
+
+
+
+
+/*FIN ESTILOS OPCIONES PARA ESTUDIO*/
